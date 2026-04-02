@@ -1,35 +1,136 @@
-Simple projects at beginner level
-# Home Appliance Sales Dashboard (Excel and Python)
+# Home Appliance Sales Analysis (SQL, Excel & Python)
+
 ## Project Overview
-This project is an **interactive dashboard** built to analyze sales performance of home appliances.  
-It provides insights such as:
-- Yearly sales trends
-- Top 10 countries by sales
-- Sales distribution by region and items
-- Average discount distribution
-- Salesperson performance
+This project presents a complete sales data analysis workflow using **SQL**, **Excel**, and **Python**.  
+It transforms raw sales data into meaningful business insights through querying, analysis, and visualization.
 
-The dashboard is designed to look clean, professional, and ready for reporting.
+The project demonstrates how data can be processed, analyzed, and presented using multiple tools in a real-world scenario.
 
-## Project Files
-- **Sales_Data.xlsx** → Raw sales data used for analysis  
-- **Sales_Data_Analysis.xlsx** → Excel file containing the final dashboard with charts  
-- **SalesDashboard.pdf** → Exported PDF version of the dashboard for easy viewing
-- **Sale_Analysis.py**  → Python file for analysis and visualization
-- **Ouput.jpg** → Visualization Output of Analysis
-## How to Use
-1. Download the files from this repository.  
-2. Open **Sales_Data_Analysis.xlsx** in Microsoft Excel (2010 or later recommended).  
-3. Review the dashboard and charts.  
-4. Optionally, explore **Sales_Data.xlsx** to see how the data connects.  
-5. If you don’t have Excel, open **SalesDashboard.pdf** for a static version.  
-6. If you have python 3 or above version, run the script **Sale_Analysis.py** to visualize the analysis.
-7. After running the script, open **Output.jpg** to view the generated visualization.
-## Tools & Skills Demonstrated
-- Microsoft Excel (Charts, PivotTables, Dashboard Design)
-- Python
-- Data Visualization  
-- Reporting & Presentation  
+---
+
+## Objectives
+- Analyze sales trends over time  
+- Identify top-performing countries and products  
+- Evaluate discount patterns across products  
+- Measure salesperson performance  
+- Understand regional product distribution  
+- Calculate product contribution to total sales  
+
+---
+
+## Tools & Technologies
+- **MySQL** → Data extraction and analysis using SQL  
+- **SQL** → Aggregations, filtering, window functions  
+- **Microsoft Excel** → Dashboard creation and visualization  
+- **Python** → Data analysis and visualization  
+
+---
+
+## Dataset
+The dataset contains sales transaction data including:
+- Order Date  
+- Country & Region  
+- Product (Item)  
+- Salesperson  
+- Price & Discount details  
+
+---
+
+## Analysis Approach
+
+### SQL Analysis
+Performed structured data analysis using SQL:
+- Yearly sales trends  
+- Top countries by revenue  
+- Product-wise performance  
+- Discount analysis  
+- Salesperson contribution  
+- Regional sales distribution  
+- Product contribution (using window functions)
+
+---
+
+### Excel Dashboard
+Created an interactive dashboard:
+- Line chart → Sales trends  
+- Bar chart → Top countries  
+- Pie chart → Product contribution  
+- Performance comparison visuals  
+
+---
+
+### Python Analysis
+Used Python for additional analysis and visualization:
+- Data processing  
+- Chart generation  
+- Exported output as image  
+
+---
+
+## Key Insights
+- Sales vary across years, indicating changing business trends  
+- A small number of countries contribute a large portion of total revenue  
+- Certain products dominate overall sales performance  
+- Discount strategies vary and influence sales outcomes  
+- Sales performance is concentrated among a few top salespersons  
+
+---
+```
+## Project Structure
+sales-analysis-project/
+│
+├── sql/
+│ └── sales_analysis.sql
+│ └── Sales_Data.csv
+│ └── Sales_SQL_Results.xlsx
+├── excel/
+│ └── Sales_Data_Analysis.xlsx
+│ └── Sales_Data.xlsx
+│ └── Sales_Dashboard.pdf
+│
+├── python/
+│ └── Sale_Analysis.py
+│ └── Output.jpg
+│
+└── README.md
+---
+```
+## How to Run
+
+### SQL
+1. Import dataset into MySQL  
+2. Create table  
+3. Run queries from `sales_analysis.sql`  
+
+### Excel
+1. Open `Sales_Data_Analysis.xlsx`  
+2. Explore dashboard and charts  
+
+### Python
+1. Run `Sale_Analysis.py` using Python 3+  
+2. View output in `Output.jpg`  
+
+---
+
+## Project Highlights
+- End-to-end data analysis workflow  
+- Multi-tool integration (SQL + Excel + Python)  
+- Business-focused insights  
+- Clean and structured reporting  
+
+---
 
 ## Author
-Created by **Pandikkani Pandiyarajan** as a first GitHub project.  
+**Pandikkani Pandiyarajan**  
+Aspiring Data Analyst  
+
+---
+
+## Final Note
+This project showcases the ability to:
+- Analyze data using SQL  
+- Build dashboards in Excel  
+- Perform analysis using Python  
+- Present insights clearly  
+
+It reflects a real-world data analysis pipeline from **raw data → insights → visualization**.
