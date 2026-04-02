@@ -68,12 +68,13 @@ Used Python for additional analysis and visualization:
 ---
 
 ## Key Insights
-- Sales vary across years, indicating changing business trends  
-- A small number of countries contribute a large portion of total revenue  
-- Certain products dominate overall sales performance  
-- Discount strategies vary and influence sales outcomes  
-- Sales performance is concentrated among a few top salespersons  
-
+- EMEA is the highest-performing region with ~305K sales, contributing significantly more than other regions  
+- LATAM shows the lowest sales (~95K), indicating potential growth opportunities  
+- Sales peaked in 2017 (~151K), following a decline and stagnation in 2015–2016  
+- Sales trend shows fluctuations, indicating inconsistent growth patterns  
+- Refrigerator category has the highest discount (~16.9%), suggesting aggressive pricing strategy  
+- Most products maintain a moderate discount range (6%–8%)  
+- Revenue contribution is concentrated in specific regions and products
 ---
 ```
 ## Project Structure
